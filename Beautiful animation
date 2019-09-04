@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+        <style>
+        body {
+ animation:colorchange 10s ease-in    2s infinite;
+    
+}
+@keyframes colorchange{
+   0% {background-color:red;}
+   10%{background-color:blue;}
+   20%{background-color:black;}
+   30%{background-color:white;}
+   40%{background-color:orange;}
+   50%{background-color:brown;}
+   60%{background-color:yellow;}
+   70%{background-color:green;}
+   80%{background-color:pink;}
+   90%{background-color:purple;}
+   100%{background-color:red;}
+    
+}
+#hello{
+    font-size:50px;
+    border:10px solid dotted ;animation:colorchange 10px ease-in 2s infinite ;
+}
+@keyframe colorchange{
+    0%{font-family:cursive;}
+    50%{font-family:monospace;}
+    100%{font-family:fantasy;}
+}
+
+        </style>
+    </head>
+    <body>
+        
+        <center><div id="hello"></div></center>
+    </body>
+</html>
